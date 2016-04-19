@@ -12,4 +12,20 @@
  *
  *= require_tree .
  *= require_self
+ *= require bootstrap-theme.min.css
+ *= require bootstrap.min.css
  */
+
+
+p.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+/* main padding for content */
+p.content {
+
+    padding-top: 100px;
+
+}
