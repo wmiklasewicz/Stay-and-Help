@@ -24,8 +24,21 @@ p.navbar {
 }
 
 /* main padding for content */
-p.content {
+div.container-fluid {
 
-    padding-top: 100px;
+    padding-top: 50px;
+    background: #E9EBE9;
 
 }
+
+div.col-md-2 {
+
+    background: green;
+}
+
+div.col-md-10{
+
+    background: red;
+}
+
+
