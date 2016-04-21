@@ -12,11 +12,15 @@
   <tbody>
     <% @tips.each do |tip| %>
       <tr>
-        <td><%= link_to 'Show', tip %></td>
+        <div>
+          <%= tip.content %>
+        </div>
         <% if tip.user == current_user %>
+        <td><%= link_to 'Show', tip %></td>
           <td><%= link_to 'Edit', edit_tip_path(tip) %></td>
           <td><%= link_to 'Destroy', tip, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-        <% end %>
+          <td> <%= link_to 'New Tip', new_tip_path %> </td>
+      <% end %>
       </tr>
     <% end %>
   </tbody>
@@ -24,4 +28,4 @@
 
 <br>
 
-<%= link_to 'New Tip', new_tip_path %>
+
