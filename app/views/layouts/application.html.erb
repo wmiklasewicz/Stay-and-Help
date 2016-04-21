@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>StayAndPlay</title>
+  <title>Stay and Help</title>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
   <!-- Latest compiled and minified CSS -->
@@ -33,25 +33,28 @@
 </head>
 <body>
 
-<!--<div class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">-->
-  <!--<%= render 'layouts/session_navbar' %>-->
-<!--</div>-->
+<div class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+  <%= render 'layouts/session_navbar' %>
+</div>
 
 <div class="container-fluid">
-
+<% if  user_signed_in? %>
   <div class="row-fluid">
     <div class="col-md-2">
-        <!-- sidebar content -->
-        <h1>Listing Tips</h1>
+      <%= render 'layouts/sidebar' %>
       </div>
-
     <div class="col-md-10">
-        <h1>Listing Tips2</h1>
+      <%= yield %>
+      </div>
+  <% else %>
+    <div class="container-fluid">
+        <h1>Tutaj nagłówek sobie jakiś fajny dasz 1 1 1 1 </h1>
         <%= yield %>
       </div>
-
   </div>
 </div>
+
+<% end %>
 
 </body>
 </html>
