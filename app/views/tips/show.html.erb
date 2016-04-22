@@ -4,6 +4,6 @@
 <div>
   <%= @tip.content %>
   </div>
-
+<%= link_to 'Usuń', tip_path(@tip), method: :delete, data: { confirm: 'Are you sure?' } %>
 <%= link_to 'Edytuj', edit_tip_path(@tip) %> |
 <%= link_to 'Wróć', tips_path %>
