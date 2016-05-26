@@ -26,6 +26,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'sass-rails', '~> 5.0'
 gem 'rename'
+gem 'haml'
 
 
 # Use ActiveModel has_secure_password
