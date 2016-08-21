@@ -19,15 +19,16 @@
                   linear,
                   left bottom,
                   right top,
-                  color-stop(0.31, #4A2821),
-                  color-stop(1, #ED0303)
+                  color-stop(0.17, #080008),
+                  color-stop(0.28, #290A03),
+                  color-stop(0.53, #5C0707),
+                  color-stop(1, #F70F0F)
   );
-  background-image: -o-linear-gradient(right top, #4A2821 31%, #ED0303 100%);
-  background-image: -moz-linear-gradient(right top, #4A2821 31%, #ED0303 100%);
-  background-image: -webkit-linear-gradient(right top, #4A2821 31%, #ED0303 100%);
-  background-image: -ms-linear-gradient(right top, #4A2821 31%, #ED0303 100%);
-  background-image: linear-gradient(to right top, #4A2821 31%, #ED0303 100%);
-
+  background-image: -o-linear-gradient(right top, #080008 17%, #290A03 28%, #5C0707 53%, #F70F0F 100%);
+  background-image: -moz-linear-gradient(right top, #080008 17%, #290A03 28%, #5C0707 53%, #F70F0F 100%);
+  background-image: -webkit-linear-gradient(right top, #080008 17%, #290A03 28%, #5C0707 53%, #F70F0F 100%);
+  background-image: -ms-linear-gradient(right top, #080008 17%, #290A03 28%, #5C0707 53%, #F70F0F 100%);
+  background-image: linear-gradient(to right top, #080008 17%, #290A03 28%, #5C0707 53%, #F70F0F 100%);
 
   text-align: center
 }
@@ -38,7 +39,7 @@
 }
 
 footer {
-  background: #6A201B;
+  background: #2A0903;
   display: block;
   color: white;
 }
