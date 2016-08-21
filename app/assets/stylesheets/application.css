@@ -27,7 +27,8 @@ p.navbar {
 div.container-fluid {
 
     padding-top: 50px;
-    background: #E9EBE9;
+    background: white;
+    width: 100%;
 
 }
 
