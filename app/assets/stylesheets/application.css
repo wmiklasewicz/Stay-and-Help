@@ -16,7 +16,6 @@
  *= require bootstrap.min.css
  */
 
-
 p.navbar {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -26,10 +25,9 @@ p.navbar {
 /* main padding for content */
 div.container-fluid {
 
-    padding-top: 50px;
+    margin-top: 20px;
     background: white;
-    width: 100%;
-
+    padding: 0;
 }
 
 div.col-md-2 {
