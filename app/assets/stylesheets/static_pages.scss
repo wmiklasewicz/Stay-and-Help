@@ -10,3 +10,28 @@ footer {
   background: gray;
   display: block;
 }
+
+#how_works {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.jumbotron {
+  background-image: -webkit-gradient(
+                  linear,
+                  left bottom,
+                  right top,
+                  color-stop(0.31, #4A2821),
+                  color-stop(1, #ED0303)
+  );
+  background-image: -o-linear-gradient(right top, #4A2821 31%, #ED0303 100%);
+  background-image: -moz-linear-gradient(right top, #4A2821 31%, #ED0303 100%);
+  background-image: -webkit-linear-gradient(right top, #4A2821 31%, #ED0303 100%);
+  background-image: -ms-linear-gradient(right top, #4A2821 31%, #ED0303 100%);
+  background-image: linear-gradient(to right top, #4A2821 31%, #ED0303 100%);
+}
+
+.btn-primary {
+  background: white;
+  color: black;
+}
