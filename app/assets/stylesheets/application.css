@@ -15,6 +15,10 @@
  *= require bootstrap-theme.min.css
  *= require bootstrap.min.css
  */
+.navbar {
+    background: white;
+    border: none;
+}
 
 p.navbar {
     padding-top: 10px;
