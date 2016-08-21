@@ -4,14 +4,12 @@
 
 #works {
  font-size: 23px;
+  text-align: center;
 }
 
-footer {
-  background: gray;
-  display: block;
-}
 
 #how_works {
+  text-align: center;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -29,9 +27,18 @@ footer {
   background-image: -webkit-linear-gradient(right top, #4A2821 31%, #ED0303 100%);
   background-image: -ms-linear-gradient(right top, #4A2821 31%, #ED0303 100%);
   background-image: linear-gradient(to right top, #4A2821 31%, #ED0303 100%);
+
+
+  text-align: center
 }
 
 .btn-primary {
   background: white;
   color: black;
+}
+
+footer {
+  background: #6A201B;
+  display: block;
+  color: white;
 }
