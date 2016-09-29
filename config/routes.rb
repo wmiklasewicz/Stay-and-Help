@@ -4,8 +4,8 @@ Rails.application.routes.draw do
   resources :static_pages
  
 
-resources :tips do
-  resources :articles
-  end
+resources :tips
+resources :articles
+
 
 end
