@@ -23,6 +23,7 @@
 p.navbar {
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-right: -20px;
 
 }
 
@@ -44,7 +45,7 @@ div.col-md-2 {
 
 div.col-md-10{
 
-    background: #D7D7D7;
+    background: white;
 
 }
 
