@@ -9,6 +9,8 @@
 
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
   <!--<link rel="stylesheet" href="bootstrap-table.css">-->
 
 
@@ -37,8 +39,9 @@
   <%= render 'layouts/session_navbar' %>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid" >
 <% if  user_signed_in? %>
+ <div style="margin-bottom: 30px;"></div>
   <div class="row">
     <div class="col-md-2">
       <%= render 'layouts/sidebar' %>
