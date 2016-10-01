@@ -7,9 +7,6 @@
           <%= link_to('Wyloguj', destroy_user_session_path, :method => :delete) %>
     <% else %>
           <%= link_to('Zaloguj', new_user_session_path)  %>
-
-        <p class="navbar-text pull-right ">
-          <%= link_to "Porady", tips_path, :class => 'navbar-link' %>
     <% end %>
     </div>
 </div>
