@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed8e429c-78cd-40e3-bb2e-4a9275995ae2" name="Default" comment="...">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/tips_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/tips_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/tip.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/tips/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/tips/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/tips/index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/tips/index.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/tips/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/tips/show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/tips/show.json.jbuilder" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Stay-and-Help.iml" afterPath="$PROJECT_DIR$/.idea/Stay-and-Help.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="ed8e429c-78cd-40e3-bb2e-4a9275995ae2" name="Default" comment="..." />
     <ignored path="Stay-and-Help.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -84,8 +69,8 @@
       <file leaf-file-name="schema.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+            <state relative-caret-position="576">
+              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
               <folding>
                 <marker date="1475336705137" expanded="true" signature="1847:1853" ph="do ... end" />
               </folding>
@@ -726,7 +711,7 @@
       <workItem from="1471801885794" duration="5813000" />
       <workItem from="1475185707178" duration="180000" />
       <workItem from="1475261826964" duration="2751000" />
-      <workItem from="1475325881573" duration="9699000" />
+      <workItem from="1475325881573" duration="9834000" />
     </task>
     <task id="LOCAL-00050" summary="Fit layout for website.">
       <created>1461747845238</created>
@@ -1075,7 +1060,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25434000" />
+    <option name="totallyTimeSpent" value="25569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="127" y="58" width="1756" height="783" extended-state="0" />
@@ -1552,8 +1537,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+        <state relative-caret-position="576">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
           <folding>
             <marker date="1475336705137" expanded="true" signature="1847:1853" ph="do ... end" />
           </folding>
