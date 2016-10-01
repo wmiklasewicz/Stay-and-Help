@@ -28,7 +28,7 @@ gem 'rename'
 gem 'haml'
 gem 'tzinfo-data'
 
-
+gem "bcrypt", "~> 3.1.1"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
