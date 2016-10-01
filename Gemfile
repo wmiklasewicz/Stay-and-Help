@@ -26,6 +26,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'rename'
 gem 'haml'
+gem 'tzinfo-data'
 
 
 # Use ActiveModel has_secure_password
