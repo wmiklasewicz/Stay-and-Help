@@ -1,9 +1,28 @@
 <ul class="nav nav-pills nav-stacked">
-  <li class="nav-header">Menu</li>
-  <li class="active"><%= link_to "Porady", tips_path, :class => 'navbar-link' %></li>
   <li><%= link_to 'Artukuły', articles_path %></li>
-  <li><%= link_to 'Nowa porada', new_tip_path %></li>
   <li><%= link_to 'Nowy artykuł', new_article_path %></li>
 </ul>
+
+  <script type="text/javascript">
+
+    $(document).ready(function(){
+      $('.nav li').click(function(event){
+        //remove all pre-existing active classes
+        $('.active').removeClass('active');
+
+        //add the active class to the link we clicked
+        $(this).addClass('active');
+
+        //Load the content
+        //e.g.
+        //load the page that the link was pointing to
+        $('#content').load($(this).find(a).attr('href'));
+
+        event.preventDefault();
+      });
+    });
+
+
+  </script>
 
 

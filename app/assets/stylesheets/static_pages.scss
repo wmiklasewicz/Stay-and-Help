@@ -1,3 +1,46 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#works {
+ font-size: 23px;
+  text-align: center;
+}
+
+
+#how_works {
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.red_gradient {
+  background-image: -webkit-gradient(
+                  linear,
+                  left bottom,
+                  right top,
+                  color-stop(0.17, #080008),
+                  color-stop(0.28, #290A03),
+                  color-stop(0.53, #5C0707),
+                  color-stop(1, #F70F0F)
+  );
+  background-image: -o-linear-gradient(right top, #080008 17%, #290A03 28%, #5C0707 53%, #F70F0F 100%);
+  background-image: -moz-linear-gradient(right top, #080008 17%, #290A03 28%, #5C0707 53%, #F70F0F 100%);
+  background-image: -webkit-linear-gradient(right top, #080008 17%, #290A03 28%, #5C0707 53%, #F70F0F 100%);
+  background-image: -ms-linear-gradient(right top, #080008 17%, #290A03 28%, #5C0707 53%, #F70F0F 100%);
+  background-image: linear-gradient(to right top, #080008 17%, #290A03 28%, #5C0707 53%, #F70F0F 100%);
+
+  text-align: center
+}
+
+.btn-primary {
+  background: white;
+  color: black;
+}
+
+footer {
+  background: #2A0903;
+  text-align: center;
+  display: block;
+  color: white;
+}

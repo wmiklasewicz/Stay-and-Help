@@ -1,12 +1,11 @@
 Rails.application.routes.draw do
+  devise_for :admins
   root 'static_pages#home'
   devise_for :users
   resources :static_pages
-  resources :tips
   resources :articles
-
-# resources :tips do
-#   resources :articles
-#   end
+  devise_scope :user do
+    get '/users/sign_out' => 'devise/sessions#destroy'
+  end
 
 end
