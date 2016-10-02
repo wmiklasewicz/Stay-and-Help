@@ -7,6 +7,7 @@
 * allows to add items to the pages from the admin panel
 * contains admin panel
 * allows to login as the user
+* bootstrap
 
 
 **TODO:**
