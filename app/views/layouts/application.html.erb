@@ -40,7 +40,7 @@
 </div>
 
 <div class="container-fluid" >
-<% if  user_signed_in? %>
+  <% if current_user && current_user.admin? %>
  <div style="margin-bottom: 30px;"></div>
   <div class="row">
     <div class="col-md-2">
@@ -49,13 +49,17 @@
     <div class="col-md-10">
       <%= yield %>
       </div>
-  <% else %>
+  <% else if current_user %>
     <div class="container-fluid">
         <%= yield %>
       </div>
+  <% else %>
+    <div class="container-fluid">
+      <%= yield %>
+     </div>
   </div>
 </div>
-
+<% end %>
 <% end %>
 
 </body>
