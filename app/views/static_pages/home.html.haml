@@ -1,0 +1,35 @@
+!!! 5
+%html
+%head
+  %link{ :rel => "stylesheet" , :type => "text/css", :href => "static_pages.scss"}
+  %link{ :rel => "stylesheet", :href => "path/to/font-awesome/css/font-awesome.min.css"}
+
+  %title Page Title
+
+%body(style="background:white")
+
+%div.jumbotron.red_gradient
+  %h1(style="color: white;") Stay and help!
+  %p ...
+  %p
+    %a.btn.btn-primary.btn-lg{href: "#"}  Zacznij
+
+%div.col-md-12#works
+  %h3 Jak to działa
+
+%div.row#how_works
+  %div.col-md-4
+    test
+
+  %div.col-md-4 test
+  %i.fa.fa-question(aria-hidden="true")
+  <!-- Optional: clear the XS cols if their content doesn't match in height -->
+  %div.clearfix.visible-xs-block
+  %div.col-md-4 col-xs-6 .col-sm-4
+%footer
+%p 2016
+
+
+
+
+
