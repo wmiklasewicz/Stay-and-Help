@@ -14,7 +14,11 @@
  *= require_self
  *= require bootstrap-theme.min.css
  *= require bootstrap.min.css
+ *= require thredded
  */
+
+@import "thredded";
+
 .navbar {
     background: white;
     border: none;
