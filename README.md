@@ -4,10 +4,10 @@
 
 **A simple application developed in Rails:**
 
-* allows to add items to the pages from the admin panel
-* contains admin panel
-* allows to login as the user
-* bootstrap
+* Allows to add items to the pages from the admin panel.
+* Contains admin panel.
+* Allows to login as the user.
+* Bootstrap, Sass.
 
 ##Problems? Issues?
 -----------
@@ -48,11 +48,10 @@ Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.
 
 **TODO:**
 
-* a discussion forum for users
-* connect with AngularJS
-* rewrite to haml
-* use Sass
-* create awesome layout
+* A discussion forum for users.
+* Connect with AngularJS.
+* Rewrite to haml.
+* Create awesome layout!
 
 
 
