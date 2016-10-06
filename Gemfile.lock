@@ -48,6 +48,8 @@ GEM
     babel-transpiler (0.7.0)
       babel-source (>= 4.0, < 6)
       execjs (~> 2.0)
+    backport_new_renderer (1.0.0)
+      rails
     bbcoder (1.1.1)
     bcrypt (3.1.11)
     bcrypt (3.1.11-x86-mingw32)
@@ -247,6 +249,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  backport_new_renderer (~> 1.0)
   bcrypt (~> 3.1.1)
   bootstrap-sass
   byebug
