@@ -1,10 +1,10 @@
-<ul class="nav nav-pills nav-stacked">
-  <li><%= link_to 'Artukuły', articles_path %></li>
-  <li><%= link_to 'Nowy artykuł', new_article_path %></li>
-</ul>
+%ul.nav.nav-pills.nav-stacked
+  %li
+    = link_to 'Artukuły', articles_path
+  %li
+    = link_to 'Nowy artykuł', new_article_path
 
-  <script type="text/javascript">
-
+:javascript
     $(document).ready(function(){
       $('.nav li').click(function(event){
         //remove all pre-existing active classes
@@ -21,8 +21,5 @@
         event.preventDefault();
       });
     });
-
-
-  </script>
 
 
