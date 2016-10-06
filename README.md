@@ -12,7 +12,7 @@
 ##Problems? Issues?
 -----------
 
-Need help? Ask on Stack Overflow with the tag 'railsapps.'
+Need help? Ask on Stack Overflow with the tag 'railsapps.' or create Issue on Github.
 
 ##Ruby on Rails
 -------------
