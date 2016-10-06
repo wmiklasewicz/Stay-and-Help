@@ -17,7 +17,8 @@
  *= require thredded
  */
 
-@import "thredded";
+@import "thredded/dependencies";
+@import "thredded/thredded";
 
 .navbar {
     background: white;

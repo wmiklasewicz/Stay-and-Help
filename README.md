@@ -4,19 +4,56 @@
 
 **A simple application developed in Rails:**
 
-* allows to add items to the pages from the admin panel
-* contains admin panel
-* allows to login as the user
-* bootstrap
+* Allows to add items to the pages from the admin panel.
+* Contains admin panel.
+* Allows to login as the user.
+* Bootstrap, Sass.
+
+##Problems? Issues?
+-----------
+
+Need help? Ask on Stack Overflow with the tag 'railsapps.' or create Issue on Github.
+
+##Ruby on Rails
+-------------
+
+This application requires:
+
+- Ruby 2.3.1
+- Rails 4.2.5
+
+Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
+
+##Getting Started
+---------------
+
+##Documentation and Support
+-------------------------
+
+##Issues
+-------------
+
+##Similar Projects
+----------------
+
+##Contributing
+------------
+
+##Credits
+-------
+
+##License
+-------
 
 
 **TODO:**
 
-* a discussion forum for users
-* connect with AngularJS
-* rewrite to haml
-* use Sass
-* create awesome layout
+* A discussion forum for users.
+* Connect with AngularJS.
+* Rewrite to haml.
+* Create awesome layout!
+
+
 
 
 
