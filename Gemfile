@@ -27,6 +27,7 @@ gem 'bootstrap-sass'
 gem 'rename'
 gem 'haml'
 gem 'tzinfo-data'
+gem 'thredded', '~> 0.6.3'
 
 gem "bcrypt", "~> 3.1.1"
 # Use ActiveModel has_secure_password
