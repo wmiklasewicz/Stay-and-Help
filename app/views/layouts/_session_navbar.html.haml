@@ -1,0 +1,10 @@
+%div.container
+  %div.navbar-header
+  %div.navbar.navbar-default.navbar-fixed-top
+    %p.navbar-text.pull-right
+      - if user_signed_in?
+        = link_to('Wyloguj', destroy_user_session_path, :method => :delete)
+      - else
+        = link_to('Zaloguj', new_user_session_path)
+
+
