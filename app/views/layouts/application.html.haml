@@ -1,0 +1,51 @@
+!!! 5
+%html
+%head
+  %title Stay and Help
+  = javascript_include_tag 'application', 'data-turbolinks-track' => true
+
+  // Latest compiled and minified CSS
+  %link{:rel => "stylesheet", :href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"}
+
+  // Optional theme
+  %link{:rel => "stylesheet", :href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"}
+  %link{:rel => "stylesheet", :href => "path/to/font-awesome/css/font-awesome.min.css"}
+
+  // %link{:rel => "stylesheet", :href => "bootstrap-table.css"}
+  // Latest compiled and minified JavaScript
+  %script{:src => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"}
+  // <!--<script src="bootstrap-table.js"></script>-->
+  // HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+  // WARNING: Respond.js doesn't work if you view the page via file://
+  // [if lt IE 9]
+  %script{:src => "https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"}
+  %script{:src => "https://oss.maxcdn.com/respond/1.4.2/respond.min.js"}
+  %script{:src => "http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"}
+  %script{:src => "~/Scripts/jquery_cookie.js", :type => "text/javascript"}
+
+  // ![endif]
+  = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+  %meta{:charset => "utf-8"}
+  %meta{'http-equiv' => "X-UA-Compatible", :content => "IE=edge"}
+  %meta{:name => "viewport", :content => "width=device-width, initial-scale=1"}
+  = csrf_meta_tags
+
+%body
+%div.navbar.navbar-default.navbar-fixed-top(role="navigation")
+  = render 'layouts/session_navbar'
+
+%div.container-fluid
+  - if current_user && current_user.admin?
+    %div(style="margin-bottom: 30px;")
+    %div.row
+      %div.col-md-2
+        = render 'layouts/sidebar'
+      %div.col-md-10
+        = yield
+  - elsif current_user
+    %div.container-fluid
+      = yield
+  - else
+    %div.container-fluid
+      = yield
+
