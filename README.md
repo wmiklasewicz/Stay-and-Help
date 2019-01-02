@@ -1,6 +1,6 @@
-#This application is all about first aid.
+# This application is all about first aid.
 ---
-####Rescuers at the scene say "Stay and Play" or "Load and Go" you say, "Stay and Help"!
+## Rescuers at the scene say "Stay and Play" or "Load and Go" you say, "Stay and Help"!
 
 **A simple application developed in Rails:**
 
@@ -9,12 +9,12 @@
 * Allows to login as the user.
 * Bootstrap, Sass.
 
-##Problems? Issues?
+## Problems? Issues?
 -----------
 
 Need help? Ask on Stack Overflow with the tag 'railsapps.' or create Issue on Github.
 
-##Ruby on Rails
+## Ruby on Rails
 -------------
 
 This application requires:
@@ -24,25 +24,22 @@ This application requires:
 
 Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
 
-##Getting Started
+## Getting Started
 ---------------
 
-##Documentation and Support
+## Documentation and Support
 -------------------------
 
-##Issues
+## Issues
 -------------
 
-##Similar Projects
+## Similar Projects
 ----------------
 
-##Contributing
+## Contributing
 ------------
 
-##Credits
--------
-
-##License
+## License
 -------
 
 
